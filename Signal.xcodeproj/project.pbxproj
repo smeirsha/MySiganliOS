@@ -406,8 +406,6 @@
 		D221A09A169C9E5E00537ABF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D221A099169C9E5E00537ABF /* main.m */; };
 		D221A0AD169C9E5F00537ABF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D221A08D169C9E5E00537ABF /* UIKit.framework */; };
 		D221A0AE169C9E5F00537ABF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D221A08F169C9E5E00537ABF /* Foundation.framework */; };
-		D221A0E8169DFFC500537ABF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D221A0E7169DFFC500537ABF /* AVFoundation.framework */; };
-		D24B5BD5169F568C00681372 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D24B5BD4169F568C00681372 /* AudioToolbox.framework */; };
 		D2AEACDC16C426DA00C364C0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AEACDB16C426DA00C364C0 /* CFNetwork.framework */; };
 		E1368CBE18A1C36B00109378 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EB5ABC1884C002007CBB57 /* MessageUI.framework */; };
 		E1370BE018A0686600826894 /* busy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E18AB40718A05754001A532A /* busy.mp3 */; };
@@ -950,8 +948,6 @@
 		D221A099169C9E5E00537ABF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D221A09B169C9E5E00537ABF /* Signal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Signal-Prefix.pch"; sourceTree = "<group>"; };
 		D221A0AA169C9E5F00537ABF /* SignalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D221A0E7169DFFC500537ABF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = ../../../../../../System/Library/Frameworks/AVFoundation.framework; sourceTree = "<group>"; };
-		D24B5BD4169F568C00681372 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = ../../../../../../System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<group>"; };
 		D2AEACDB16C426DA00C364C0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		DE2DD605305BC6EFAD731723 /* Pods-Signal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Signal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Signal/Pods-Signal.debug.xcconfig"; sourceTree = "<group>"; };
 		DF728B4B438716EAF95CEC18 /* Pods-Signal.app store release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Signal.app store release.xcconfig"; path = "Pods/Target Support Files/Pods-Signal/Pods-Signal.app store release.xcconfig"; sourceTree = "<group>"; };
@@ -1081,8 +1077,6 @@
 				D2179CFC16BB0B3A0006F3AB /* CoreTelephony.framework in Frameworks */,
 				D221A08E169C9E5E00537ABF /* UIKit.framework in Frameworks */,
 				D221A090169C9E5E00537ABF /* Foundation.framework in Frameworks */,
-				D221A0E8169DFFC500537ABF /* AVFoundation.framework in Frameworks */,
-				D24B5BD5169F568C00681372 /* AudioToolbox.framework in Frameworks */,
 				0DD55B166906AF3368995978 /* libPods-Signal.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2086,8 +2080,6 @@
 				D2AEACDB16C426DA00C364C0 /* CFNetwork.framework */,
 				D2179CFB16BB0B3A0006F3AB /* CoreTelephony.framework */,
 				D2179CFD16BB0B480006F3AB /* SystemConfiguration.framework */,
-				D24B5BD4169F568C00681372 /* AudioToolbox.framework */,
-				D221A0E7169DFFC500537ABF /* AVFoundation.framework */,
 				D221A08D169C9E5E00537ABF /* UIKit.framework */,
 				D221A08F169C9E5E00537ABF /* Foundation.framework */,
 				D221A091169C9E5E00537ABF /* CoreGraphics.framework */,
